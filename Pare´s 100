@@ -1,0 +1,13 @@
+#include <stdio.h>
+#include <stdlib.h>
+main() {
+  int x=0, z;
+   do {
+   z=x++;  
+   printf ("%d\n",z);
+    x++;
+    } while(x<=100);
+    system("pause>>null");
+    
+}
+       
